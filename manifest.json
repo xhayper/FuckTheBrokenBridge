@@ -1,8 +1,8 @@
 {
-    "name": "FuckTheBrokeBridge",
+    "name": "FuckTheBrokenBridge",
     "description": "*unbroken your bridge*",
     "version_number": "1.0.0",
-    "website_url": "https://github.com/xhayper/FuckTheBrokeBridge",
+    "website_url": "https://github.com/xhayper/FuckTheBrokenBridge",
     "dependencies": [
         "BepInEx-BepInExPack_Inscryption-5.4.1701"
     ]
