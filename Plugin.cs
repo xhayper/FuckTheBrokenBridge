@@ -3,7 +3,7 @@ using HarmonyLib;
 
 #pragma warning disable 169
 
-namespace ActTwoBridgeSkip
+namespace FuckTheBrokeBridge
 {
 
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
