@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace ActTwoBridgeSkip
+namespace FuckTheBrokeBridge
 {
     [HarmonyPatch(typeof(GBC.BrokenBridgeEntrance), "BridgeFixed")]
     public class GBC_BrokenBridgeEntrance_BridgeFixed
