@@ -1,4 +1,7 @@
+.vscode/
+.idea/
+
 production/
+lib/
 obj/
 bin/
-lib/
