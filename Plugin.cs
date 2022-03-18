@@ -6,17 +6,12 @@ using HarmonyLib;
 namespace FuckTheBrokeBridge
 {
 
-    [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
-        private const string PluginGuid = "io.github.xhayper.fuckthebrokenbridge";
-        private const string PluginName = "FuckTheBrokenBridge";
-        private const string PluginVersion = "1.0.0.0";
-
         private void Awake()
         {
-            Harmony harmony = new Harmony(PluginGuid);
-            harmony.PatchAll();
+            Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), PluginInfo.PLUGIN_GUID);
         }
     }
 }
